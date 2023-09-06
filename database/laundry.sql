@@ -76,8 +76,7 @@ CREATE TABLE `outlet` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 INSERT INTO `outlet` (`id_outlet`, `nama_outlet`, `telepon_outlet`, `alamat_outlet`) VALUES
-(1,	' Kilo.in Laundry 1',	'082219787397',	'Jl. Jelambar Kb. Pisang Wijaya Kusuma Grogol Petamburan Jakarta Barat'),
-(2,	'Kilo.in Laundry 1',	'082219787397',	'Jl. Jl. Jelambar Kb. Pisang Wijaya Kusuma Grogol Petamburan Jakarta Barat');
+(1,	'Kilo.in Laundry 1',	'082219787397',	'Jl. Jl. Jelambar Kb. Pisang Wijaya Kusuma Grogol Petamburan Jakarta Barat');
 
 
 DROP TABLE IF EXISTS `user`;
