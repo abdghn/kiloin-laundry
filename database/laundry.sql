@@ -133,9 +133,9 @@ INSERT INTO `biodata` (`id_biodata`, `nama_lengkap`, `tempat_lahir`, `tanggal_la
 (8,	'GITA AGUSTIN',	'Tangerang',	'2002-08-01',	'wanita',	'',	'081244583209',	'gitaagustin32@gmail.com',	'Jl. Salak Kp. Buaran Rt 04/04 No. 001 Pondok Benda Pamulang',	'default.png',	8),
 (9,	'Abdul Haris',	'Pati',	'2000-10-05',	'pria',	'b',	'089777666565',	'haris@gamil.com',	'Kabupaten Pati',	'pas_boy.png',	9),
 (10,	'Putri Yulia',	'Pati',	'2003-07-16',	'wanita',	'b',	'087878898989',	'putri@gmail.com',	'Desa Gajihan',	'pas1.png',	10),
-(11,	'Inten Erviatun',	'Jepara',	'2003-08-15',	'wanita',	'ab',	'082345543432',	'intan@gmail.com',	'Desa Tempur',	'pas2.png',	11);
-(12,	'Inten Erviatun',	'Jepara',	'2003-08-15',	'wanita',	'ab',	'082345543432',	'intan@gmail.com',	'Desa Tempur',	'pas2.png',	12);
-(13,	'Inten Erviatun',	'Jepara',	'2003-08-15',	'wanita',	'ab',	'082345543432',	'intan@gmail.com',	'Desa Tempur',	'pas2.png',	13);
+(11,	'Inten Erviatun',	'Jepara',	'2003-08-15',	'wanita',	'ab',	'082345543432',	'intan@gmail.com',	'Desa Tempur',	'pas2.png',	11),
+(12,	'Inten Erviatun',	'Jepara',	'2003-08-15',	'wanita',	'ab',	'082345543432',	'intan@gmail.com',	'Desa Tempur',	'pas2.png',	12),
+(13,	'Inten Erviatun',	'Jepara',	'2003-08-15',	'wanita',	'ab',	'082345543432',	'intan@gmail.com',	'Desa Tempur',	'pas2.png',	13),
 (14,	'Inten Erviatun',	'Jepara',	'2003-08-15',	'wanita',	'ab',	'082345543432',	'intan@gmail.com',	'Desa Tempur',	'pas2.png',	14);
 
 
