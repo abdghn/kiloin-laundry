@@ -76,7 +76,8 @@ CREATE TABLE `outlet` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 INSERT INTO `outlet` (`id_outlet`, `nama_outlet`, `telepon_outlet`, `alamat_outlet`) VALUES
-(1,	'Ayo Laundry 1',	'085158543890',	'Jl. Raya Siman, Siman, Kec. Ponorogo, Kabupaten Ponorogo, Jawa Timur 63452');
+(1,	' Kilo.in Laundry 1',	'082219787397',	'Jl. Jelambar Kb. Pisang Wijaya Kusuma Grogol Petamburan Jakarta Barat');
+(2,	'Kilo.in Laundry 1',	'082219787397',	'Jl. Jl. Jelambar Kb. Pisang Wijaya Kusuma Grogol Petamburan Jakarta Barat');
 
 
 DROP TABLE IF EXISTS `user`;
@@ -94,14 +95,14 @@ CREATE TABLE `user` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 INSERT INTO `user` (`id_user`, `username`, `password`, `id_outlet`, `id_jabatan`) VALUES
-(1,	'super_administrator',	'$2a$12$WAnkt6ZWdvhtQPbfISOyqusCKuzKlJ056tLwg8uSrtW9N5dA0KjjO',	1,	1),
-(2,	'andre975',	'$2y$10$pFEavlHoN3M8NqpoW.XfGOZ7lBnWngElDkijqaBoAs4uwEpS1HrBq',	1,	2),
-(3,	'irgi12',	'$2y$10$z6U4gqlXkVHxVn9DeR5wveVUPvkWcscdODMoK4Xdzcj256mkbg666',	1,	3),
-(4,	'salsa321',	'$2y$10$LLS4fpdOsBbDjFjHwtEh3OwsFNILOAOJ6JEGga3zE1HupDLq/7wpa',	1,	4),
-(8,	'gita32',	'$2y$10$o23vOagRlojnwlOQdBYQbuRCCC17eSmLyXytEC0o1ITwmjCPTgT7W',	1,	2),
+(1,	'super_administrator',	'$2y$10$mPmIFV7CtajZh3HLiorcJO43ygVgHiLdnS8OqNykGAEoMRad/p.He',	1,	1),
+(2,	'andre975',	'$2y$10$mPmIFV7CtajZh3HLiorcJO43ygVgHiLdnS8OqNykGAEoMRad/p.He',	1,	2),
+(3,	'irgi12',	'$2y$10$mPmIFV7CtajZh3HLiorcJO43ygVgHiLdnS8OqNykGAEoMRad/p.He',	1,	3),
+(4,	'salsa321',	'$2y$10$mPmIFV7CtajZh3HLiorcJO43ygVgHiLdnS8OqNykGAEoMRad/p.He',	1,	4),
+(8,	'gita32',	'$2y$10$mPmIFV7CtajZh3HLiorcJO43ygVgHiLdnS8OqNykGAEoMRad/p.He',	1,	2),
 (9,	'admin',	'$2y$10$mPmIFV7CtajZh3HLiorcJO43ygVgHiLdnS8OqNykGAEoMRad/p.He',	1,	2),
-(10,	'kasir',	'$2y$10$89HhajyNfVEzwWnLc7usA.v.rgqqjM7DOh2Af2szUQMoUjH8VmMOG',	1,	3),
-(11,	'owner',	'$2y$10$oBxi4aMC5Tmietnf9t1T..pXUSil4YriPG5ZHGEN9Y2MKRGUC3I0O',	1,	4);
+(10,	'kasir',	'$2y$10$mPmIFV7CtajZh3HLiorcJO43ygVgHiLdnS8OqNykGAEoMRad/p.He',	1,	3),
+(11,	'owner',	'$2y$10$mPmIFV7CtajZh3HLiorcJO43ygVgHiLdnS8OqNykGAEoMRad/p.He',	1,	4);
 
 DROP TABLE IF EXISTS `biodata`;
 CREATE TABLE `biodata` (
