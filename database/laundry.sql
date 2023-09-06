@@ -76,7 +76,8 @@ CREATE TABLE `outlet` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 INSERT INTO `outlet` (`id_outlet`, `nama_outlet`, `telepon_outlet`, `alamat_outlet`) VALUES
-(1,	'Kilo.in Laundry 1',	'082219787397',	'Jl. Jl. Jelambar Kb. Pisang Wijaya Kusuma Grogol Petamburan Jakarta Barat');
+(1,	'Kilo.in Laundry 1',	'082219787397',	'Jl. Jelambar Kb. Pisang Wijaya Kusuma Grogol Petamburan Jakarta Barat 11460'),
+(2,	'Kilo.in Laundry 2',	'085952823198',	'Jl. Baru Gg. 2 No.2 RT.11/02, RT.11/RW.2, Cilincing, North Jakarta City, Jakarta 14120');
 
 
 DROP TABLE IF EXISTS `user`;
@@ -99,9 +100,12 @@ INSERT INTO `user` (`id_user`, `username`, `password`, `id_outlet`, `id_jabatan`
 (3,	'irgi12',	'$2y$10$mPmIFV7CtajZh3HLiorcJO43ygVgHiLdnS8OqNykGAEoMRad/p.He',	1,	3),
 (4,	'salsa321',	'$2y$10$mPmIFV7CtajZh3HLiorcJO43ygVgHiLdnS8OqNykGAEoMRad/p.He',	1,	4),
 (8,	'gita32',	'$2y$10$mPmIFV7CtajZh3HLiorcJO43ygVgHiLdnS8OqNykGAEoMRad/p.He',	1,	2),
-(9,	'admin',	'$2y$10$mPmIFV7CtajZh3HLiorcJO43ygVgHiLdnS8OqNykGAEoMRad/p.He',	1,	2),
+(9,	'direktur',	'$2y$10$mPmIFV7CtajZh3HLiorcJO43ygVgHiLdnS8OqNykGAEoMRad/p.He',	1,	2),
 (10,	'kasir',	'$2y$10$mPmIFV7CtajZh3HLiorcJO43ygVgHiLdnS8OqNykGAEoMRad/p.He',	1,	3),
-(11,	'owner',	'$2y$10$mPmIFV7CtajZh3HLiorcJO43ygVgHiLdnS8OqNykGAEoMRad/p.He',	1,	4);
+(11,	'owner',	'$2y$10$mPmIFV7CtajZh3HLiorcJO43ygVgHiLdnS8OqNykGAEoMRad/p.He',	1,	4),
+(12,	'laundry_jakut',	'$2y$10$mPmIFV7CtajZh3HLiorcJO43ygVgHiLdnS8OqNykGAEoMRad/p.He',	2,	3),
+(13,	'laundry_jakbar',	'$2y$10$mPmIFV7CtajZh3HLiorcJO43ygVgHiLdnS8OqNykGAEoMRad/p.He',	1,	3),
+(14,	'manager',	'$2y$10$mPmIFV7CtajZh3HLiorcJO43ygVgHiLdnS8OqNykGAEoMRad/p.He',	1,	4);
 
 DROP TABLE IF EXISTS `biodata`;
 CREATE TABLE `biodata` (
@@ -130,6 +134,9 @@ INSERT INTO `biodata` (`id_biodata`, `nama_lengkap`, `tempat_lahir`, `tanggal_la
 (9,	'Abdul Haris',	'Pati',	'2000-10-05',	'pria',	'b',	'089777666565',	'haris@gamil.com',	'Kabupaten Pati',	'pas_boy.png',	9),
 (10,	'Putri Yulia',	'Pati',	'2003-07-16',	'wanita',	'b',	'087878898989',	'putri@gmail.com',	'Desa Gajihan',	'pas1.png',	10),
 (11,	'Inten Erviatun',	'Jepara',	'2003-08-15',	'wanita',	'ab',	'082345543432',	'intan@gmail.com',	'Desa Tempur',	'pas2.png',	11);
+(12,	'Inten Erviatun',	'Jepara',	'2003-08-15',	'wanita',	'ab',	'082345543432',	'intan@gmail.com',	'Desa Tempur',	'pas2.png',	12);
+(13,	'Inten Erviatun',	'Jepara',	'2003-08-15',	'wanita',	'ab',	'082345543432',	'intan@gmail.com',	'Desa Tempur',	'pas2.png',	13);
+(14,	'Inten Erviatun',	'Jepara',	'2003-08-15',	'wanita',	'ab',	'082345543432',	'intan@gmail.com',	'Desa Tempur',	'pas2.png',	14);
 
 
 

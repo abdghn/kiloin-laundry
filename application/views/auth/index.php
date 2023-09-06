@@ -157,28 +157,28 @@
 				<h4>Kontak Kami</h4>
 				<div class="row text-left my-2">
 					<div class="col-lg-4"><i class="fab fa-fw fa-whatsapp"></i> Hub. WhatsApp</div>
-					<div class="col-lg-5"><a class="text-white" target="_blank" href="https://api.whatsapp.com/send?phone=+6285158543890">+6285158543890</a></div>
+					<div class="col-lg-5"><a class="text-white" target="_blank" href="https://api.whatsapp.com/send?phone=+6282219787397">+6282219787397</a></div>
 				</div>
 				<div class="row my-2 ml-0">
-					<div class="col-xs-1 mr-2"><a class="text-white" target="_blank" href="https://twitter.com"><i class="fab fa-fw fa-twitter"></i></a></div>
-					<div class="col-xs-1 mx-2"><a class="text-white" target="_blank" href="https://facebook.com"><i class="fab fa-fw fa-facebook"></i></a></div>
-					<div class="col-xs-1 mx-2"><a class="text-white" target="_blank" href="https://instagram.com"><i class="fab fa-fw fa-instagram"></i></a></div>
-					<div class="col-xs-1 mx-2"><a class="text-white" target="_blank" href="https://linkedin.com"><i class="fab fa-fw fa-linkedin-in"></i></a></div>
-					<div class="col-xs-1 mx-2"><a class="text-white" target="_blank" href="https://pinterest.com"><i class="fab fa-fw fa-pinterest"></i></a></div>
+					<!-- <div class="col-xs-1 mr-2"><a class="text-white" target="_blank" href="https://twitter.com"><i class="fab fa-fw fa-twitter"></i></a></div> -->
+					<!-- <div class="col-xs-1 mx-2"><a class="text-white" target="_blank" href="https://facebook.com"><i class="fab fa-fw fa-facebook"></i></a></div> -->
+					<div class="col-xs-1 mx-2"><a class="text-white" target="_blank" href="https://instagram.com/kilo.in"><i class="fab fa-fw fa-instagram"></i></a></div>
+					<!-- <div class="col-xs-1 mx-2"><a class="text-white" target="_blank" href="https://linkedin.com"><i class="fab fa-fw fa-linkedin-in"></i></a></div>
+					<div class="col-xs-1 mx-2"><a class="text-white" target="_blank" href="https://pinterest.com"><i class="fab fa-fw fa-pinterest"></i></a></div> -->
 				</div>
 				<div class="row text-left my-2">
 					<div class="col-lg-4">
 						<i class="fas fa-fw fa-map-marker-alt"></i> Alamat
 					</div>
 					<div class="col-lg-8">
-						Jl. Raya Siman, Siman, Kec. Ponorogo, Kabupaten Ponorogo, Jawa Timur 63452
+					Jl. Jelambar Kb. Pisang Wijaya Kusuma Grogol Petamburan Jakarta Barat
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-lg">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15808.477357815937!2d111.48008076333488!3d-7.882580824237407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e79a01633829623%3A0x6cd4777cdf861aa!2sSiman%2C%20Ponorogo%20Regency%2C%20East%20Java!5e0!3m2!1sen!2sid!4v1672309664784!5m2!1sen!2sid" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				<iframe src="https://www.google.com/maps/embed?pb=!4v1694015802752!6m8!1m7!1s_vTf0ZPBBeXEPHHQfFCAUw!2m2!1d-6.153875898107991!2d106.780917834479!3f121.65007467723781!4f0!5f0.7820865974627469" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 			</div>
 		</div>
 	</div>
