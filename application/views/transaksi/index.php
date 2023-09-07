@@ -99,19 +99,19 @@
 
 <div class="row justify-content-center text-center my-2">
 	<div class="col-md m-1 px-0">
-		<a href="<?= base_url('transaksi/index/'); ?>" class="btn btn-secondary">Semua</a> <span class="badge badge-secondary"><?= $jumlah_status_transaksi_semua['semua']; ?></span>
+		<a href="<?= base_url('transaksi/index/'); ?>" class="btn btn-secondary">Semua</a> <span class="badge badge-secondary"><?= $jumlah_status_transaksi_semua['semua'] ?? 0; ?></span>
 	</div>
 	<div class="col-md m-1 px-0">
-		<a href="<?= base_url('transaksi/index/' . 'proses'); ?>" class="btn btn-danger">Proses</a> <span class="badge badge-danger"><?= $jumlah_status_transaksi_proses['proses']; ?></span>
+		<a href="<?= base_url('transaksi/index/' . 'proses'); ?>" class="btn btn-danger">Proses</a> <span class="badge badge-danger"><?= $jumlah_status_transaksi_proses['proses'] ?? 0; ?></span>
 	</div>
 	<div class="col-md m-1 px-0">
-		<a href="<?= base_url('transaksi/index/' . 'dicuci'); ?>" class="btn btn-warning text-white">Dicuci</a> <span class="badge badge-warning text-white"><?= $jumlah_status_transaksi_dicuci['dicuci']; ?></span>
+		<a href="<?= base_url('transaksi/index/' . 'dicuci'); ?>" class="btn btn-warning text-white">Dicuci</a> <span class="badge badge-warning text-white"><?= $jumlah_status_transaksi_dicuci['dicuci'] ?? 0; ?></span>
 	</div>
 	<div class="col-md m-1 px-0">
-		<a href="<?= base_url('transaksi/index/' . 'siap diambil'); ?>" class="btn btn-info">Siap diambil</a> <span class="badge badge-info"><?= $jumlah_status_transaksi_siap_diambil['siap diambil']; ?></span>
+		<a href="<?= base_url('transaksi/index/' . 'siap diambil'); ?>" class="btn btn-info">Siap diambil</a> <span class="badge badge-info"><?= $jumlah_status_transaksi_siap_diambil['siap diambil'] ?? 0; ?></span>
 	</div>
 	<div class="col-md m-1 px-0">
-		<a href="<?= base_url('transaksi/index/' . 'sudah diambil'); ?>" class="btn btn-success">Sudah diambil</a> <span class="badge badge-success"><?= $jumlah_status_transaksi_sudah_diambil['sudah diambil']; ?></span>
+		<a href="<?= base_url('transaksi/index/' . 'sudah diambil'); ?>" class="btn btn-success">Sudah diambil</a> <span class="badge badge-success"><?= $jumlah_status_transaksi_sudah_diambil['sudah diambil'] ?? 0; ?></span>
 	</div>
 </div>
 
