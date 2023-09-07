@@ -44,7 +44,7 @@
 									  	<input type="hidden" name="id_paket[]" value="<?= $dp['id_paket']; ?>">
 									    <span class="input-group-text" id="basic-addon1"><?= ucwords($dp['nama_jenis_paket']); ?> | <?= $dp['nama_paket']; ?> | Rp. <?= number_format($dp['harga_paket']); ?></span>
 									  </div>
-									  <input type="number" min="0" class="form-control" name="kuantitas[]" aria-describedby="basic-addon1" placeholder="Isi Kuantitas">
+									  <input type="number" step="0.1" min="0" class="form-control" name="kuantitas[]" aria-describedby="basic-addon1" placeholder="Isi Kuantitas">
 									</div>
 								    <small class="my-1 text-info">Kosongkan bila paket tidak dipilih</small>
 		        				</div>

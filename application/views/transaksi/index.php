@@ -1,3 +1,12 @@
+<?php 
+if ($this->session->userdata('kode_invoice')) {
+	redirect('detailTransaksi/tambahDetailTransaksi');
+}elseif ($this->session->userdata('status_bayar')) {
+	redirect('transaksi/pembayaranTransaksi');
+}
+
+?>
+
 <div class="row my-2">
 	<div class="col-lg my-auto header-judul">
 		<?php if ($this->session->userdata('id_jabatan') == '1'): ?>

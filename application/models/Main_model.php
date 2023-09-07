@@ -8,13 +8,6 @@ class Main_model extends CI_Model {
 		if (!$this->session->userdata('id_user')) {
 			redirect('auth/login');
 		}
-
-		// jika sedang menginputkan detail transaksi, paksa ke halaman tambah transaski
-		if ($this->session->userdata('kode_invoice')) {
-			redirect('detailTransaksi/tambahDetailTransaksi');
-		}elseif ($this->session->userdata('status_bayar')) {
-			redirect('transaksi/pembayaranTransaksi');
-		}
 	}
 
 	public function check_jabatan_bukan_administrator($table)
